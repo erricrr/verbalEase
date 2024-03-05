@@ -14,12 +14,6 @@ Key Enhancements:
 This application is designed for local deployment and is optimized to function within Google Chrome. While it may be possible to access the application using other browsers or operating systems, certain features and functionalities may be limited or unavailable.
 
 ## Usage 
-
-* Create a file named ```config.ini```
-* Paste this cod and add your Gemini API token to ```config.ini```:
- 
-```
-[API_KEYS]
-GOOGLE_API_KEY = PASTE YOUR API KEY HERE 
-```
+* Locate the file named ```config.ini```
+* Add your Gemini API token to ```config.ini```
 * Run the app with ```flask run```
