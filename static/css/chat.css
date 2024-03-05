@@ -1,0 +1,78 @@
+/*ADDED saveDialogue, saveButton*/
+#repeatInputSave {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+#recordButton:hover, #repeatButton:hover, #repeatButtonRec:hover, #saveButton:hover {
+    transform: scale(1.2);
+  }
+
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+
+#repeatButtonRec,#repeatButton,#saveButton,#recordButton:hover {
+    cursor: pointer;
+}
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#userInput {
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 50px; /*ADDED*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#textInput {
+    border: none;
+    border-bottom: 3px solid black;
+    font-family: monospace;
+    font-size: 17px;
+}
+.userText {
+    color: #CC29A0; /*CHANGED*/
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+.userText span {
+    background-color: #f0f3f6; /*CHANGED*/
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.botText {
+    color: #f0f3f6; /*CHANGED*/
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+.botText span {
+    background-color: #CC29A0; /*CHANGED*/
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+#tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+.boxed {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+

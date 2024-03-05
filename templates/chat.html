@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!--ADDED DOCTYPE-->
+{% extends "layout.html" %}
+{% block title %}{{ lang_title }}{% endblock %}
+{% block content %}
+<style>
+  @media print {
+    .navbar, #userInput, #saveDialogue {
+      display: none;
+    }
+  }
+</style>
+<h1 style="text-align: center; margin-top: 75px; margin-bottom: 45px;">VerbalEase&mdash;{{ lang_title }}</h1>
+<div class="boxed">
+  <div id="chatbox">
+    <p class="botText">
+    <span>{{ intro_message }}</span>
+
+    </p>
+
+  </div>
+  <div id="userInput">
+
+    <!--ADDED repeatInpuSave, repeatButton, saveButton -->
+    <div id="repeatInputSave">
+      <img id="repeatButton" title="listen to bot response" src="static/img/repeat.svg" height="55px" width="55px" onclick="repeatAudio()">
+      <input style="text-align: center" title="type to respond" id="textInput" class="form-control" type="text" name="msg" placeholder="{{ placeholder }}" />
+      <img id="repeatButtonRec" title="listen to my response" src="static/img/repeatRec.svg" height="55px" width="55px" onclick="repeatAudioUser()">
+      <img style="margin-left: 10px;" id="saveButton" title="save transcript" src="static/img/save.svg" height="20px" width="20px" onclick="printChat()">
+
+    </div>
+      <img style="margin-top: 10px;" title="record to respond" id="recordButton" src="static/img/record.svg" height="65px" width="65px" onclick="toggleRecording()">
+
+  </div>
+</div>
+
+<script>
+function printChat() {
+    window.print();
+  }
+
+
+lang = '{{ lang_code }}';
+</script>
+<!-- <script src="src/FileSaver.js"></script> -->
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+{% endblock %}
