@@ -13,6 +13,12 @@ Key Enhancements:
 
 This application is designed for local deployment and is optimized to function within Google Chrome. While it may be possible to access the application using other browsers or operating systems, certain features and functionalities may be limited or unavailable.
 
+## Screenshots
+
+| Home Page | Chat Page |
+| :---: | :---: |
+| ![VerbalEase Home Page](verbalEase_home.png) | ![VerbalEase Chat Page](verbalEase_chat.png) |
+
 ## Usage 
 * Locate the file named ```config.ini```
 * Add your Gemini API token to ```config.ini```
