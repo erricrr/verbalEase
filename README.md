@@ -1,7 +1,7 @@
 # verbalEase
 Practice Speaking a Foreign Language with AI
 
-This project leverages Flask, Bootstrap, and GeminiPro 1.0 to construct a comprehensive AI-driven language learning application, building upon the foundational work of LinguaLearn (https://github.com/KhanradCoder/LinguaLearn) by Adam Eubanks (https://github.com/KhanradCoder). I would like to acknowledge Mr. Eubanks's contributions and express my gratitude for providing the foundation for VerbalEase.
+This project leverages Flask, Bootstrap, and GeminiPro 1.0 to construct a comprehensive AI-driven language learning application, building upon the foundational work of LinguaLearn (https://github.com/KhanradCoder/LinguaLearn) by **Adam Eubanks (https://github.com/KhanradCoder)**. I would like to acknowledge Mr. Eubanks's contributions and express my gratitude for providing the foundation for VerbalEase.
 
 **Key Enhancements**:
 
