@@ -13,11 +13,11 @@ var recorder;
 
 
 $("#textInput").keydown(function (e) {
-  // console.log(e);
+  console.log(e);
   if (e.key == 'Enter') {
     getBotResponse();
     recordButton.src = 'static/img/record.svg';
-    recognition.stop();
+    // recognition.stop();
     isRecording = false;
   }
 });
